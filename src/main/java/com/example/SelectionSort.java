@@ -8,7 +8,7 @@ import java.util.List;
 
 public class SelectionSort {
 
-    public static < SS extends Comparable <SS>> void selectionSort(SS[] vetor) {
+    public static <SS extends Comparable <SS>> void selectionSort(SS[] vetor) {
         for(int posSel = 0; posSel < vetor.length -1; posSel++){
 
             int posMenor = posSel;
@@ -23,9 +23,7 @@ public class SelectionSort {
                 vetor[posSel] = vetor[posMenor];
                 vetor[posMenor] = temp;
             }
-
         }
-
     }
 
 

@@ -1,6 +1,6 @@
 package com.example.cadastro_alunos;
 
-public class Aluno {
+public class Aluno implements Comparable<Aluno>{
     private String nome;
     private int ra;
     private int idade;
@@ -14,12 +14,17 @@ public class Aluno {
         this.idade = idade;
         this.sexo = sexo;
         this.media = media;
-        //this.resultado = (media >= 6.0) ? "Aprovado" : "Reprovado";
         if (media >= 6.0) {
             this.resultado = "Aprovado";
         } else {
             this.resultado = "Reprovado";
         }
+        //this.resultado = (media >= 6.0) ? "Aprovado" : "Reprovado";
+    }
+
+    @Override
+    public int compareTo(Aluno outro) {
+        return this.nome.compareToIgnoreCase(outro.nome);
     }
 
     // Getters e Setters necessários para a ordenação e exibição
@@ -73,13 +78,12 @@ public class Aluno {
 
     @Override
     public String toString() {
-        return "Aluno{" +
-                "nome='" + nome + '\'' +
-                ", ra=" + ra +
-                ", idade=" + idade +
-                ", sexo='" + sexo + '\'' +
-                ", media=" + media +
-                ", resultado='" + resultado + '\'' +
-                '}';
+        return "nome = '" + nome + '\'' +
+                ", ra = " + ra +
+                ", idade = " + idade +
+                ", sexo = '" + sexo + '\'' +
+                ", media = " + media +
+                ", resultado = '" + resultado + '\'';
     }
+
 }
