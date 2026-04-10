@@ -6,19 +6,19 @@ import java.util.Scanner;
 public class TestaAluno {
     public static void main(String[] args){
         Locale.setDefault(Locale.US);
-        Scanner leitor = new Scanner(System.in);
-        Aluno[] alunos = new Aluno[100]; // Capacidade para 100 alunos
-        int total = 0;
-        int opcao = 0;
+        Scanner leitor = new Scanner(System.in); // SCANNER
+        Aluno[] alunos = new Aluno[100]; //ARRAY que armazena objetos Aluno com 100 de capacidade
+        int total = 0; //posicao no array
+        int opcao;
 
         do {
             System.out.println("\n--- SISTEMA ACADÊMICO ---");
             System.out.println("1. Cadastrar Aluno");
-            System.out.println("2. Relatório por Nome (A-Z)");
-            System.out.println("3. Relatório por RA (Decrescente)");
-            System.out.println("4. Relatório de Aprovados (A-Z)");
+            System.out.println("2. Relatório dos Alunos por Nome (A-Z)");
+            System.out.println("3. Relatório dos Alunos por RA (Decrescente)");
+            System.out.println("4. Relatório de Alunos Aprovados (A-Z)");
             System.out.println("5. Encerrar");
-            System.out.print("Opção: ");
+            System.out.print("Opção escolhida: ");
             opcao = leitor.nextInt();
             leitor.nextLine(); // Limpa o buffer
 
@@ -78,6 +78,24 @@ public class TestaAluno {
             }
         }
     }
+
+    public static <BS extends Comparable<BS>> void bubbleSort(BS[] vetor) {
+        boolean trocou;
+        do {
+            trocou = false;
+            for (int i = 0; i < vetor.length - 1; i++) {
+                if (vetor[i].compareTo(vetor[i + 1]) > 0) {
+                    BS temp = vetor[i];
+                    vetor[i] = vetor[i + 1];
+                    vetor[i + 1] = temp;
+                    trocou = true;
+                }
+            }
+
+        } while (trocou);
+        // while(trocou = true);
+    }
+
 
     // Algoritmo Bubble Sort para RA (Decrescente)
     public static void ordenarPorRADecrescente(Aluno[] v, int n) {

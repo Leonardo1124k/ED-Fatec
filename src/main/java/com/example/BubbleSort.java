@@ -35,21 +35,19 @@ public class BubbleSort {
         System.out.println(Arrays.toString(nomesDesord));
         
         //EXTRA, SOBRE LEITURA E ORDENAÇÃO EM ARQUIVOS
-        Path caminho = Path.of("data/nomes-desord.txt");
-        List<String> lista = Files.readAllLines(caminho);
-        String[] nomes = lista.toArray(new String[0]);
-
-        bubbleSort(nomes);
-
+//        Path caminho = Path.of("data/nomes-desord.txt");
+//        List<String> lista = Files.readAllLines(caminho);
+//        String[] nomes = lista.toArray(new String[0]);
+//
 //        long inicio = System.currentTimeMillis();
 //        bubbleSort(nomes);
 //        long fim = System.currentTimeMillis();
 //
-//        System.out.println("Tempo de ordenação SelectionSort do arquivo .txt" + (fim - inicio) + "ms");
-
-        for (String nome : nomes) {
-            System.out.println(nome);
-        }
+//        System.out.println("Tempo de ordenação SelectionSort do arquivo .txt" + (fim - inicio) + " ms");
+//
+//        for (String nome : nomes) {
+//            System.out.println(nome);
+//        }
 
     }
 }

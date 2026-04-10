@@ -14,13 +14,62 @@ public class Aluno {
         this.idade = idade;
         this.sexo = sexo;
         this.media = media;
-        this.resultado = (media >= 6.0) ? "Aprovado" : "Reprovado";
+        //this.resultado = (media >= 6.0) ? "Aprovado" : "Reprovado";
+        if (media >= 6.0) {
+            this.resultado = "Aprovado";
+        } else {
+            this.resultado = "Reprovado";
+        }
     }
 
     // Getters e Setters necessários para a ordenação e exibição
-    public String getNome() { return nome; }
-    public int getRa() { return ra; }
-    public String getResultado() { return resultado; }
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public int getRa() {
+        return ra;
+    }
+
+    public void setRa(int ra) {
+        this.ra = ra;
+    }
+
+    public String getResultado() {
+        return resultado;
+    }
+
+    public void setResultado(String resultado) {
+        this.resultado = resultado;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+
+    public void setIdade(int idade) {
+        this.idade = idade;
+    }
+
+    public String getSexo() {
+        return sexo;
+    }
+
+    public void setSexo(String sexo) {
+        this.sexo = sexo;
+    }
+
+    public double getMedia() {
+        return media;
+    }
+
+    public void setMedia(double media) {
+        this.media = media;
+    }
 
     @Override
     public String toString() {

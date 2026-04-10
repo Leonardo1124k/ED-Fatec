@@ -35,9 +35,7 @@ public class BuscaBinaria {
                 fim = meio - 1;
             }
         }
-        //caso o índice fim se torne menor que o índice ini, é retornado -1
-        // expressando que não foi encontrado o valor procurado
-        return -1;
+        return -1; //caso o índice fim se torne menor que o índice ini, é retornado -1, expressando que não foi encontrado o valor procurado
     }
 
 }

@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f31fc8e-b2a4-4253-9f24-aba3050b374d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Banco_de_dados/Adriano/.$Modelagem-Conceitual.drawio.bkp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Banco_de_dados/Adriano/.$Modelagem-Conceitual.drawio.dtmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Banco_de_dados/Adriano/Modelagem-Conceitual.drawio" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Banco_de_dados/Adriano/biblioteca-leo-gabriel.sql" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/BuscaBinaria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/BuscaBinaria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cadastro_alunos/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cadastro_alunos/Aluno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cadastro_alunos/TestaAluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cadastro_alunos/TestaAluno.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Prog_Orientada_Objetos/POO1Projeto" beforeDir="false" afterPath="$PROJECT_DIR$/../../Prog_Orientada_Objetos/POO1Projeto" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +29,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
