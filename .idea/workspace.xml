@@ -5,16 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f31fc8e-b2a4-4253-9f24-aba3050b374d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/QuickSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Banco_de_dados/Adriano/.$Modelagem-Conceitual.drawio.bkp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Banco_de_dados/Adriano/.$Modelagem-Conceitual.drawio.dtmp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Banco_de_dados/Adriano/Modelagem-Conceitual.drawio" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Banco_de_dados/Adriano/biblioteca-leo-gabriel.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Davi/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Davi/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Davi/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Davi/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Davi/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Davi/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Davi/src/main/java/org/example/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/SelectionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cadastro_alunos/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cadastro_alunos/Aluno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cadastro_alunos/TestaAluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cadastro_alunos/TestaAluno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/SelectionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/SelectionSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cadastro_alunos/Aluno.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/cadastro_alunos/Aluno.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/MergeSort.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/cadastro_alunos/TestaAluno.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/cadastro_alunos/TestaAluno.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Prog_Orientada_Objetos/POO1Projeto" beforeDir="false" afterPath="$PROJECT_DIR$/../../Prog_Orientada_Objetos/POO1Projeto" afterDir="false" />
     </list>
@@ -61,6 +66,7 @@
     "Application.BuscaSequencial.executor": "Debug",
     "Application.Fatorial.executor": "Run",
     "Application.MergeSort.executor": "Run",
+    "Application.QuickSort.executor": "Run",
     "Application.SelectionSort.executor": "Run",
     "Application.TestaAluno.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -76,6 +82,26 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.MergeSort" />
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MergeSort" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="0f31fc8e-b2a4-4253-9f24-aba3050b374d" name="Changes" comment="" />
