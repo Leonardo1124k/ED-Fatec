@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f31fc8e-b2a4-4253-9f24-aba3050b374d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/deque/Deque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/deque/TestaDeque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/fila/Fila.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/fila/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/pilha/Pilha1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/pilha/Pilha2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/pilha/Pilha3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/pilha/Stack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Banco_de_dados/Adriano/.$Modelagem-Conceitual.drawio.bkp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Banco_de_dados/Adriano/.$Modelagem-Conceitual.drawio.dtmp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Banco_de_dados/Adriano/Modelagem-Conceitual.drawio" beforeDir="false" />
@@ -18,9 +25,8 @@
       <change beforePath="$PROJECT_DIR$/../Davi/pom.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Davi/src/main/java/org/example/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/MergeSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cadastro_alunos/TestaAluno.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/cadastro_alunos/TestaAluno.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/QuickSort.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Prog_Orientada_Objetos/POO1Projeto" beforeDir="false" afterPath="$PROJECT_DIR$/../../Prog_Orientada_Objetos/POO1Projeto" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +37,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
@@ -65,10 +72,14 @@
     "Application.BuscaBinaria.executor": "Run",
     "Application.BuscaSequencial.executor": "Debug",
     "Application.Fatorial.executor": "Run",
+    "Application.Fila.executor": "Run",
     "Application.MergeSort.executor": "Run",
+    "Application.Pilha1.executor": "Run",
+    "Application.Pilha2.executor": "Run",
     "Application.QuickSort.executor": "Run",
     "Application.SelectionSort.executor": "Run",
     "Application.TestaAluno.executor": "Run",
+    "Application.TestaDeque.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",

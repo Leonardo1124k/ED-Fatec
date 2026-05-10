@@ -10,19 +10,13 @@ import java.nio.file.Path;
 import java.util.Arrays;
 import java.util.List;
 
-/**
- *
- * @author Alexandre
- */
 public class QuickSort {
-
     //método público que facilita a chamada: o usuário só passa o vetor
     public static void quickSort(Comparable[] vetor) {
         //inicia a recursão passando o primiero(0) e o último índice
         quickSort(vetor, 0, vetor.length - 1);
     }
-
-    // método privado recursivo que define os limites de atu
+    // método privado recursivo que define os limites de atuação
     private static void quickSort(Comparable[] vetor, int inicio, int fim) {
         //Caso base: se o início for menor que o fim, ainda há elementos para ordenar
         if (inicio < fim) {
@@ -33,7 +27,6 @@ public class QuickSort {
             quickSort(vetor, inicio, pivo - 1);
             // ordena a sub-lista à direita do pivô (elementos maiores)
             quickSort(vetor, pivo + 1, fim);
-
         }
     }
 
@@ -53,11 +46,8 @@ public class QuickSort {
                 trocar(vetor, i, j); //joga o elemento menor para esquerda
             }
         }
-
         trocar(vetor, i + 1, fim);
-
         return i + 1;
-
     }
 
     private static void trocar(Comparable[] vetor, int i, int j) {
@@ -67,29 +57,13 @@ public class QuickSort {
     }
 
     public static void main(String[] args) throws IOException {
-//        Integer[] nums = {77, 44, 22, 33, 99, 55, 88, 0, 66, 11};
-//
-//        String[] nomesDesordenados = {"Maria", "João", "Ana", "Carlos", "Beatriz"};
-//
-//        quickSort(nums);
-//        System.out.println("Números ordenados: " + Arrays.toString(nums));
-//
-//        quickSort(nomesDesordenados);
-//        System.out.println("Nomes ordenados: " + Arrays.toString(nomesDesordenados));
+        Integer[] nums = {77, 44, 22, 33, 99, 55, 88, 0, 66, 11};
+        String[] nomesDesordenados = {"Maria", "João", "Ana", "Carlos", "Beatriz"};
 
-        Path caminho = Path.of("data/nomes-desord.txt");
-        List<String> lista = Files.readAllLines(caminho);
-        String[] nomes = lista.toArray(new String[0]);
+        quickSort(nums);
+        System.out.println("Números ordenados: " + Arrays.toString(nums));
+        quickSort(nomesDesordenados);
+        System.out.println("Nomes ordenados: " + Arrays.toString(nomesDesordenados));
 
-        long inicio = System.currentTimeMillis();
-        quickSort(nomes); // Executa o algoritmo
-        long fim = System.currentTimeMillis();
-
-        System.out.println("Tempo de ordenação QuickSort: " + (fim - inicio) + "ms");
-
-        // Imprime o resultado final
-        for (String nome : nomes) {
-            System.out.println(nome);
-        }
     }
 }
