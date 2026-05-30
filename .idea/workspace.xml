@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f31fc8e-b2a4-4253-9f24-aba3050b374d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/linked_list/ListaEncadeada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ListaDuplamenteEncadeada/DoublyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/linked_list/TestaListaEncadeada.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Banco_de_dados/Adriano/.$Modelagem-Conceitual.drawio.bkp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Banco_de_dados/Adriano/.$Modelagem-Conceitual.drawio.dtmp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Banco_de_dados/Adriano/Modelagem-Conceitual.drawio" beforeDir="false" />
