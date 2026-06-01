@@ -2,7 +2,7 @@ package com.example.pilha;
 
 import java.util.ArrayList;
 
-public class Pilha1 {
+public class TestaPilha1 {
     //Pilha feira de maneira equivocada, deve utilizar os metodos
     public static void main(String[] args){
         String frase = "Socorram-me, subi no onibus em Marrocos";

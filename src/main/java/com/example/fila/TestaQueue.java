@@ -1,6 +1,6 @@
 package com.example.fila;
 
-public class Fila {
+public class TestaQueue {
     public static void main(String[] args){
         Queue<String> fila = new Queue();
         System.out.println(fila.print());

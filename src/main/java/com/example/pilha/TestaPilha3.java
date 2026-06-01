@@ -1,6 +1,6 @@
 package com.example.pilha;
 
-public class Pilha3 {
+public class TestaPilha3 {
     String frase = "Socorram-me, subi no onibus em Marrocos";
     String frase2 = "Arara";
 

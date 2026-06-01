@@ -1,6 +1,6 @@
 package com.example.pilha;
 
-public class Pilha2 {
+public class TestaPilha2 {
     //PILHA FEITA DA MANEIRA CERTA, A CLASSE Pilha1 ESTÁ ERRADA
     public static void main(String[] args){
 

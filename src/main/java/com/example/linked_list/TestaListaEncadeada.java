@@ -29,5 +29,17 @@ public class TestaListaEncadeada {
         System.out.println("Removido 4: " + removido);
         System.out.println(lista.print());
 
+        int idxFusca = lista.indexOf("Fusca");
+        int idxOpala = lista.indexOf("Opala");
+        int idxChevette = lista.indexOf("Chevette");
+
+        System.out.println("\nIndex Fusca: " + idxFusca + "\nIndex Opala: " + idxOpala + "\nIndex Chevette: " + idxChevette);
+
+        String pos0 = lista.peek(0);
+        String pos3 = lista.peek(3);
+        String pos20 = lista.peek(20);
+
+        System.out.println("\nPeek pos 0: " + pos0 + "\nPeek pos 3: " + pos3 + "\nPeek pos 20: " + pos20);
+
     }
 }
